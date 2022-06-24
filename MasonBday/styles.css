@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#333f48, #b9975b);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#cover-img {
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    border: 6px solid #b9975b;
+    margin-bottom: 10px;
+}
+
+#header {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#bday-age {
+    background: #e31837;
+    padding: 7px 15px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+#bday-date {
+    background: #e31837;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 7px 15px;
+}
+
+.gift-img {
+    height: 400px;
+    max-width: 400px;
+    margin: 20px auto;
+    background-image: url(images/gift-cover.jpg);
+    background-size: cover;
+    border: 4px solid white;
+    border-radius: 5px;
+}
+
+#gift-img-karate:hover {
+    background-image: url(images/karate.gif);
+}
+
+#gift-img-rick:hover {
+    background-image: url(images/rick.gif);
+   
+}
+
+#gift-img-dua:hover {
+    background-image: url(images/dua.gif);
+}
+
+#gift-img-kramer:hover {
+    background-image: url(images/kramer.gif);
+}
+
+#gift-img-leo:hover {
+    background-image: url(images/leo.gif);
+}
+
+
+/*
+Challenge:
+1. Create a "gift-section" <div> that will wrap
+   all the elements for the first gift.
+2. Add the <h2>, <h3>, and <img> elements, and
+   give all of them their own classes.
+3. Style the elements according to the design.
+
+PS: the image should be 400px wide.
+*/
+
